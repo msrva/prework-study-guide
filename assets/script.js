@@ -1,3 +1,4 @@
+/*
 const topic = "HTML";
 
 if (topic === 'HTML') {
@@ -11,6 +12,11 @@ if (topic === 'HTML') {
 } else {
  console.log('Please try again!');
 }
+*/
 
-const shapes = ["triangle", "square", "pentagon", "circle"];
-console.log(shapes[0]);
+const topics = ["HTML", "CSS", "Git", "JavaScript"];
+console.log(topics[0]);
+
+for(let i = 0; i < topics.length; i++) {
+    console.log(topics[i])
+}
